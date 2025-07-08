@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@theme{
+    --color-primary: #42cef5;
+}
+
+@layer base{
+    .header {@apply fixed top-0 bg-transparent left-0 w-full z-10 transition-all duration-150 ease-in-out shadow-lg}
+
+    .sidebar {@apply fixed top-0 left-0 inset-0 bg-black/60 lg:z-40 z-60 invisible opacity-0 transition-opacity duration-600 ease-in-out}
+    .sidebar.active{@apply !visible !opacity-100}
+    .sidebar > div{@apply -translate-x-full transition-all duration-500 ease-in-out bg-white}
+    .sidebar.active > div {@apply translate-x-0}
+}
+@layer utilities{
+    .container { @apply max-w-6xl w-full mx-auto px-4 }
+}
