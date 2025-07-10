@@ -1,1 +1,72 @@
-[]
+[
+    {
+        "id":1,
+        "name":"Burger",
+        "image": "../src/assets/products/burger.jpg",
+        "price":4.5,
+        "description": ""
+    },
+    {
+        "id":2,
+        "name":"Pizza",
+        "image": "../src/assets/products/pizza.jpg",
+        "price":45.5,
+        "description": ""
+    },
+    {
+        "id":3,
+        "name":"Chicken Fry",
+        "image": "../src/assets/products/chicken-fry.jpg",
+        "price":6.5,
+        "description": ""
+    },
+    {
+        "id":4,
+        "name":"sandwitch",
+        "image": "../src/assets/products/sandwitch.jpg",
+        "price":8.5,
+        "description": ""
+    },
+    {
+        "id":5,
+        "name":"Hot Dog",
+        "image": "../src/assets/products/hot-dog.jpg",
+        "price":9.5,
+        "description": ""
+    },
+    {
+        "id":6,
+        "name":"French Fries",
+        "image": "../src/assets/products/french-fries.jpg",
+        "price":3.5,
+        "description": ""
+    },
+    {
+        "id":7,
+        "name":"Chow Mein",
+        "image": "../src/assets/products/chow-mein.jpg",
+        "price":35,
+        "description": ""
+    },
+    {
+        "id":8,
+        "name":"Pasta",
+        "image": "../src/assets/products/pasta.jpg",
+        "price":15,
+        "description": ""
+    },
+    {
+        "id":9,
+        "name":"Noodles",
+        "image": "../src/assets/products/noodles.jpg",
+        "price":25,
+        "description": ""
+    },
+    {
+        "id":10,
+        "name":"Taco",
+        "image": "../src/assets/products/taco.jpg",
+        "price":55,
+        "description": ""
+    }
+]

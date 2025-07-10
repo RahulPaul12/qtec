@@ -1,13 +1,10 @@
-import { useState } from "react";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
 
+import Home from "../pages/Home";
 function App() {
-  const [sidebarOpen, setSidebarOpen] = useState(false)
   return (
     <>
-     <Navbar setSidebarOpen={setSidebarOpen}/>
-     <Sidebar isOpen ={sidebarOpen} setSidebarOpen={setSidebarOpen}/>
+
+     <Home/>
     </>
   )
 }
